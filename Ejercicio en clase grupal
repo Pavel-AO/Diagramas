@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T21:19:53.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="RXcFW4lsrjuSVrTUbd2A" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T21:30:23.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="_hpomqkOC9VoxqwKBLcR" version="14.4.3" type="github">
   <diagram id="Pu3RoYS5AzT0yQOt0hQ4" name="Página-1">
-    <mxGraphModel dx="868" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,23 +28,17 @@
         <mxCell id="NaW3YqvO1CmHyUKl9lOX-6" value="a=dividendo&lt;br&gt;b=divisor&lt;br&gt;c=0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="364" y="340" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NaW3YqvO1CmHyUKl9lOX-7" value="Si d &amp;gt; b" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="NaW3YqvO1CmHyUKl9lOX-7" value="Si r &amp;gt; b" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="364" y="535" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="NaW3YqvO1CmHyUKl9lOX-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaW3YqvO1CmHyUKl9lOX-9" target="NaW3YqvO1CmHyUKl9lOX-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NaW3YqvO1CmHyUKl9lOX-9" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;d=a-b&lt;br&gt;&lt;/span&gt;c = c + 1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="NaW3YqvO1CmHyUKl9lOX-9" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;r=a-b&lt;br&gt;&lt;/span&gt;c = c + 1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="364" y="440" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NaW3YqvO1CmHyUKl9lOX-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaW3YqvO1CmHyUKl9lOX-10" target="NaW3YqvO1CmHyUKl9lOX-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NaW3YqvO1CmHyUKl9lOX-10" value="r =a mod b" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="264" y="670" width="100" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="NaW3YqvO1CmHyUKl9lOX-11" value="&quot;Cociente es&quot; + c&lt;br&gt;&quot;Resto es&quot; + r" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="264" y="760" width="100" height="60" as="geometry" />
+          <mxGeometry x="264" y="680" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NaW3YqvO1CmHyUKl9lOX-12" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NaW3YqvO1CmHyUKl9lOX-7" target="NaW3YqvO1CmHyUKl9lOX-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -55,17 +49,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NaW3YqvO1CmHyUKl9lOX-13" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NaW3YqvO1CmHyUKl9lOX-7" target="NaW3YqvO1CmHyUKl9lOX-10">
+        <mxCell id="NaW3YqvO1CmHyUKl9lOX-13" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NaW3YqvO1CmHyUKl9lOX-7" target="NaW3YqvO1CmHyUKl9lOX-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="584.5" as="sourcePoint" />
-            <mxPoint x="330" y="534.5" as="targetPoint" />
+            <mxPoint x="314" y="670" as="targetPoint" />
             <Array as="points">
               <mxPoint x="314" y="612" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NaW3YqvO1CmHyUKl9lOX-14" value="Fin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="364" y="870" width="100" height="60" as="geometry" />
+          <mxGeometry x="364" y="760" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NaW3YqvO1CmHyUKl9lOX-19" value="Si" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="560" width="40" height="20" as="geometry" />
@@ -78,7 +72,7 @@
             <mxPoint x="390" y="890" as="sourcePoint" />
             <mxPoint x="440" y="840" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="314" y="900" />
+              <mxPoint x="314" y="790" />
             </Array>
           </mxGeometry>
         </mxCell>
